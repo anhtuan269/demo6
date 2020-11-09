@@ -1,0 +1,77 @@
+.latest-product-area
+    .container
+        .row
+            .latest-title
+                h3  New Product
+                .button-nav
+                    .prev.but
+                        i.fas.fa-angle-left
+                    .next.but
+                        i.fas.fa-angle-right
+            .latest-product.owl-carousel.owl-theme
+                .product
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/8.jpg", alt="")
+                    .product-content
+                        h3 
+                            a(href="#") When an unknown printer took a galley of type.
+                        p The first line of lorem Ipsum: "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        .blog-meta
+                            ul
+                                li Oct.20.2019
+                                li 02 Comments
+                .product
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/9.jpg", alt="")
+                    .product-content
+                        h3 
+                            a(href="#") When an unknown printer took a galley of type.
+                        p The first line of lorem Ipsum: "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        .blog-meta
+                            ul
+                                li Oct.20.2019
+                                li 02 Comments
+                .product
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/10.jpg", alt="")
+                    .product-content
+                        h3 
+                            a(href="#") When an unknown printer took a galley of type.
+                        p The first line of lorem Ipsum: "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        .blog-meta
+                            ul
+                                li Oct.20.2019
+                                li 02 Comments
+                
+            
+script.
+
+    $(document).ready(function(){
+        $('.latest-product').owlCarousel({
+            nav:false,
+            loop:true,
+            responsive: {
+                1200: {
+                    items: 3
+                },
+                768: {
+                    items:2
+                },
+                480: {
+                    items:1
+                },
+                320: {
+                    items: 1
+                },
+                0: {
+                    items: 1
+                }
+            }
+        })
+    })

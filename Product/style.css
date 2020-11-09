@@ -31,7 +31,7 @@
     }
     .product-area .container .row .section-title .button-nav .but i {
         font-size:14px;
-        font-weight:600;
+        font-weight:900;
     }
     .product-area .container .row .section-title .button-nav .prev {
         margin-right:15px;
@@ -208,4 +208,13 @@
     }
         
     
+}
+@media screen and (min-width: 1200px) {
+    .product-area .container .row .section-title>h3 {
+        font-size:28px;
+        font-weight:500;
+    }
+    .product-area .container .row .section-title {
+        margin-bottom: 0;
+    }
 }

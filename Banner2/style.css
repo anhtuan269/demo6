@@ -1,0 +1,10 @@
+@media screen and (min-width:768px) {
+    .banner2-area .container .banner {
+        display:grid;
+        grid-template-columns: 50% 50%!important;
+        justify-content: space-between;
+    }
+    .banner2-area .container .banner .banner-items a img {
+        width: 100%;
+    }
+}
