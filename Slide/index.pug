@@ -1,0 +1,57 @@
+.slider
+    .slide-1.owl-carousel.owl-theme
+        .slider1.bg-1
+            .container
+                .slider-content
+                    span Exclusive Offer -10% Off This Week
+                    h2
+                        |Stylist
+                        br
+                        |Female Clothes
+                    p Made from Soft, Durable, US-grown Supima cotton.
+                    .slide-btn
+                        a.kenne-btn(href="shop.html") SHOP NOW
+        .slider1.bg-2
+            .container
+                .slider-content
+                    span Exclusive Offer -10% Off This Week
+                    h2
+                        |Stylist
+                        br
+                        |Female Clothes
+                    p Made from Soft, Durable, US-grown Supima cotton.
+                    .slide-btn
+                        a.kenne-btn(href="shop.html") SHOP NOW
+.service-area
+    .container
+        .service-nav
+            .service-item.pb25
+                .content
+                    h4 Free Shipping
+                    p Free shipping on all order
+            .service-item.pb25
+                .content
+                    h4 Money Return
+                    p 30 days for free return
+            .service-item
+                .content
+                    h4 Online Support
+                    p Support 24 hour a day
+
+
+script.
+    $(document).ready(function(){
+        $('.slide-1').owlCarousel({
+            nav:true,
+            loop:true,
+            responsive:{
+                1000: {
+                    items:1
+                },
+                0: {
+                    items:1
+                }
+            }
+        })
+    })
+
