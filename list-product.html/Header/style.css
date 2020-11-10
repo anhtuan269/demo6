@@ -1,0 +1,224 @@
+@media screen and (min-width: 320px){
+    .header .container .top-header {
+        display:none;
+    }
+    .header .container .bottom-header {
+        display:none;
+    }
+    .header .container .mid-header .contact {
+        display:none;
+    }
+    .header .container .mid-header .input {
+        display:none;
+    }
+    .header .container .mid-header .cart #cart .cart-text {
+        display: none;
+    }
+    .header .container .mid-header {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .container .mid-header .cart ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .container .mid-header .cart ul li {
+        margin-right: 20px;
+    }
+    .header .container .mid-header .cart ul li a i {
+        font-size: 21px;
+    }
+    .header .container .mid-header .cart #cart {
+        position: relative;
+    }
+    .header .container .mid-header .cart #cart .mini-cart .top {
+        position: absolute;
+        width:20px;
+        height:20px;
+        background-color: #a8741a;
+        color:#FFF;
+        border-radius: 100%;
+        font-size: 9px;
+        top:-15px;
+        left:-15px;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+@media screen and (min-width: 768px){
+    .header .container .mid-header .contact {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .container .mid-header .contact .head-phone i {
+        font-size: 30px;
+    }
+    .header .container .mid-header .contact .content {
+        padding-left: 15px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .header {
+        position: relative;
+    }
+    .header .container .mid-header .input {
+        display:block;
+        position: relative;
+    }
+    .header .container .mid-header .input input {
+        height: 40px;
+        padding: 0 40px 0 15px;
+        border: 1px solid #e5e5e5; 
+
+    }
+    .header .container .mid-header .input  button i{
+        position: absolute;
+        top:0;
+        right:0;
+        padding: 5px 12px;
+        text-align: center;
+        line-height: 35px;
+        height: 40px;
+    }
+    .header .container .mid-header .cart #cart .cart-text {
+        display:inline-block;
+    }
+    .header .container .mid-header .cart .bar {
+        display:none;
+    }
+    .header .container .mid-header .cart #cart  a{
+        display: flex;
+        padding: 9px 12px 6px;
+        border: 1px solid #e5e5e5;
+    }
+    .header .container .mid-header .cart #cart a .mini-cart:after{
+        content:"|";
+        margin: 0 15px;
+        color: #e5e5e5
+    }
+    .header .container .mid-header .cart #cart .mini-cart .top {
+        top:-10px;
+        left:-10px;
+        font-size: 11px;
+        width: 25px;
+        height:25px;
+        line-height: 25px;
+    }
+    .header .container .mid-header {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .header .container .top-header {
+        display:flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .header .container .top-header ul {
+        display: flex;
+    }
+    .header .container .top-header ul li {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    .header .container .top-header ul li a i {
+        margin-left: 10px;
+    }
+    .header .container .top-header .top-left ul li:first-child {
+        padding: 8px 15px 8px 0;
+    }
+    .header .container .top-header .top-right ul li:last-child {
+        padding: 8px 0px 8px 15px;
+    }
+    .header .container .bottom-header {
+        display:block;
+        position: relative;
+    }
+    .header .container .bottom-header .main-menu ul {
+        display: flex;
+        justify-content: center;
+    }
+    .header .container .bottom-header .main-menu ul .pa {
+        display:inline-block;
+        margin-right: 40px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .header .container .bottom-header .main-menu ul .pa:hover {
+        color:#a8741a;
+        transition: all 0.5s ease-in;
+    }
+    .header .container .bottom-header .main-menu ul .pa a i {
+        font-size: 20px;
+        margin-left:5px;
+        position: relative;
+        top: 3px;
+    }
+    .header .container .bottom-header .main-menu ul .pa .sub-menu {
+        position:absolute;
+        background-color: rgba( 255, 255, 255, 0.97);
+        box-shadow: 0 0 7px 0.5px rgba(0, 0, 0, 0.15);
+        transform-origin: 0 0 0 ;
+        width: 230px;
+        padding: 20px 0 24px;
+        transform: scaleY(0);
+        transition: all 0.5s ease-in-out ;
+        display: block;
+        text-align: left;
+    }
+    .header .container .bottom-header .main-menu ul .pa:hover .sub-menu {
+        transform: scaleY(1);
+    }
+    .header .container .bottom-header .main-menu ul .pa .sub-menu li a {
+        display: block;
+        padding: 10px 20px;
+        color: #242424;
+        font-weight:400;
+
+    }
+    .header .container .bottom-header .main-menu ul .pa .menu-col {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-content: center;
+        width:100%;
+        position: absolute;
+        top:100%;
+        left:0;
+        padding:30px;
+        transition: all 0.5s ease-in 0s;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .header .container .bottom-header .main-menu ul .pa .menu-col .col ul {
+        display: block;
+    }
+    .header .container .bottom-header .main-menu ul .pa .menu-col .col ul li span {
+        position:relative;
+        font-size:18px;
+        font-weight:500;
+        display: inline-block;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #e5e5e5;
+        left:20px;
+        color:#242424;
+    }
+    .header .container .bottom-header .main-menu ul .pa .menu-col .col ul li span::before{
+        content: "";
+        background-color: #a8741a;
+        height:1px;
+        position: absolute;
+        bottom:-1px;
+        width: 50%;
+    }
+    .header .container .bottom-header .main-menu ul .pa .sub-menu li a:hover {
+        color:#a8741a;
+    }
+
+    .header .container .bottom-header .main-menu ul .pa a {
+        padding: 20px 0;
+        display: block;
+    }
+}
