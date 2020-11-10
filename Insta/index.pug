@@ -1,0 +1,63 @@
+.insta-area
+    .container
+        .row
+            .title
+                h2 Instagram Feed
+                p  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            .feed.owl-carousel.owl-theme
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/11.jpg", alt="")
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/12.jpg", alt="")
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/13.jpg", alt="")
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/14.jpg", alt="")
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/15.jpg", alt="")
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/16.jpg", alt="")
+                .feed1
+                    .image
+                        figure
+                            a(href="#")
+                                img(src="./image/17.jpg", alt="")
+script.
+    $(document).ready(function(){
+        $('.feed').owlCarousel({
+            nav: true,
+            loop: true,
+            responsive: {
+                1000: {
+                    items: 5
+                },
+                768 : {
+                    items: 4
+                },
+                480 : {
+                    items:2
+                },
+                320 : {
+                    items:1
+                }
+            }
+        })
+    })

@@ -1,0 +1,88 @@
+@media screen and (min-width: 320px){
+    .insta-area {
+        padding: 95px 0;
+    }
+    .insta-area .container .row .title {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom:40px;
+        margin: auto;
+    }
+    .insta-area .container .row .title h2 {
+        font-size: 28px;
+        margin-bottom: 8px;
+        font-weight:500;
+    }
+    .insta-area .container .row .feed .feed1 {
+        padding: 0 15px;
+    }
+    .insta-area .container .row .feed .feed1 image {
+        position: relative;
+    }
+    .insta-area .container .row .feed .feed1 .image::before {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        transition: all 0.5s ease 0s;
+        content:"";
+    }
+    .insta-area .container .row .feed .feed1 .image::after{
+        position: absolute;
+        content: "";
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        transition: all 0.5s ease 0s;
+    }
+    .insta-area .container .row .feed .feed1 .image:hover::before {
+        top:50%;
+        bottom:50%;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .insta-area .container .row .feed .feed1 .image:hover::after {
+        left:50%;
+        right:50%;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .insta-area .container .row .feed .owl-dots {
+        display: none;
+    }
+    .insta-area .container .row .feed {
+        position: relative;
+
+    }
+    
+    .insta-area .container .row .feed .owl-nav .owl-prev {
+        position: absolute;
+        left:25px;
+        top:40%;
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:#FFF;
+        font-size:18px;
+    }
+    
+    .insta-area .container .row .feed .owl-nav .owl-next {
+        position: absolute;
+        right:25px;
+        top: 40%;
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:#FFF;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .insta-area .container .row .title p {
+        max-width: 65%;
+        margin: auto;
+    }
+}
