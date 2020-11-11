@@ -295,7 +295,7 @@
         position: relative;
     }
     .pdt {
-        padding-top: 55px;
+        padding-top: 55px!important;
     }
     .list-product-area .container .row .left-sidebar .fillter .slider-range .ui-slider-range {
         position: absolute;
