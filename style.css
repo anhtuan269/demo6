@@ -5,7 +5,8 @@ body {
 	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
     line-height: 24px;
-    font-weight: 400;
+	font-weight: 400;
+	color: #242424;
 }
 
 h1,
@@ -15,9 +16,12 @@ h4,
 h5,
 h6 {
 	font-family: 'Rubik', sans-serif;
-	color: text-color;
 	font-weight: 500;
 	line-height: 1;
+	color:#242424;
+}
+p {
+	color: #242424;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -45,13 +49,6 @@ img {
 	overflow: hidden;
 	display: block;
 }
-
-a,
-button,
-i {
-	@extend %basetransition;
-}
-
 a,
 a:hover,
 a:focus,

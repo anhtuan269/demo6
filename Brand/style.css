@@ -1,0 +1,19 @@
+@media screen and (min-width: 320px){
+   .brand-area .container .row .brand-items .owl-dots {
+       display: none;
+   } 
+   .brand-area .container .border-top {
+    border-top: 1px solid #e5e5e5;
+   }
+   .brand-area .container .row .brand-items {
+       padding:45px 0 40px;
+   }
+   .brand-area .container .row .brand-items .items {
+       display: block;
+       padding: 15px;
+
+   }
+   .brand-area .container .row .brand-items .items a img  {
+        width:100%;    
+    }
+}

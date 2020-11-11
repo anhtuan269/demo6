@@ -4,8 +4,10 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   link(rel='stylesheet' href='./style.css' type='text/css')
   link(rel='stylesheet' href='./Header/style.css' type='text/css')
+  link(rel='stylesheet' href='../Brand/style.css' type='text/css')
   link(rel='stylesheet' href='./list-product.html/Header/style.css' type='text/css')
   link(rel='stylesheet' href='./list-product.html/View/style.css' type='text/css')
+  link(rel='stylesheet' href='./list-product.html/List-product/style.css' type='text/css')
   link(rel='stylesheet' href='./Footer/style.css' type='text/css')
   link(rel='stylesheet' href='./owlcarousel/owl.carousel.min.js')
   link(rel='stylesheet' href='./owlcarousel/assets/owl.theme.default.min.css')
@@ -16,7 +18,9 @@ head
   link(href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet")
   link(href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet")
   link(href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet")
-  script(src='https://kit.fontawesome.com/b1ff58fb64.js' crossorigin='anonymous')
+  script( src="https://kit.fontawesome.com/b1ff58fb64.js" crossorigin="anonymous")
+  link( rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css")
+  link( rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css")
   script(src='https://code.jquery.com/jquery-3.5.1.min.js')
   script(src='../owlcarousel/owl.carousel.min.js')
   script(src="/__lightserver__/reload-client.js")
@@ -24,4 +28,8 @@ head
 body
   include ./Header/index.pug 
   include ./View/index.pug 
+  include ./List-product/index.pug 
+  include ../Brand/index.pug 
+  include ../Footer/index.pug 
+
   

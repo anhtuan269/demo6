@@ -1,0 +1,47 @@
+.brand-area
+    .container
+        .border-top
+            .row
+                .brand-items.owl-carousel.owl-theme
+                    .items
+                        a(href="#")
+                            img(src="./image/img1.png", alt="")
+                    .items
+                        a(href="#")
+                            img(src="./image/img2.png", alt="")
+                    .items
+                        a(href="#")
+                            img(src="./image/img3.png", alt="")
+                    .items
+                        a(href="#")
+                            img(src="./image/img4.png", alt="")
+                    .items
+                        a(href="#")
+                            img(src="./image/img5.png", alt="")
+                    .items
+                        a(href="#")
+                            img(src="./image/img6.png", alt="")
+script.
+    $(document).ready(function(){
+        $('.brand-items').owlCarousel({
+            nav:false,
+            loop:true,
+            responsive: {
+                1000: {
+                    items: 6
+                },
+                768: {
+                    items: 4
+                },
+                480: {
+                    items: 2
+                },
+                320: {
+                    items: 2
+                },
+                0:{
+                    items: 1
+                }
+            }
+        })
+    })
