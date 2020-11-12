@@ -165,6 +165,7 @@
     .header .container .row .col-lg-12 .header-nav .main-menu ul .pa a {
         padding: 20px 0;
         display: block;
+        font-size: 16px;
     }
     .header .container .row .col-lg-12 .header-nav .right-header .menu-bar1 {
         display:block;

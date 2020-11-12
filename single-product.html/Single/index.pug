@@ -1,0 +1,176 @@
+.single-area 
+    .container
+        .slide
+            .single-product
+                .single.owl-carousel.owl-theme
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/3-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/4-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/5-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/6-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/7-1.jpg", alt="")
+                    .product
+                        .image
+                                a(href="#")
+                                    img(src="./image/8-1.jpg", alt="")
+                .slider.owl-carousel.owl-theme
+                    .product
+                        .image.border
+                            a(href="#")
+                                img(src="./image/3-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/4-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/5-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/6-1.jpg", alt="")
+                    .product
+                        .image
+                            a(href="#")
+                                img(src="./image/7-1.jpg", alt="")
+                    .product
+                        .image
+
+                            a(href="#")
+                                img(src="./image/8-1.jpg", alt="")
+            .sp-content
+                .content
+                    .title
+                        h5
+                            a(href="#") Aliquid rerum ipsam maxime
+                    span Reference: demo_1
+                    .vote
+                        i.far.fa-star
+                        i.far.fa-star
+                        i.far.fa-star
+                        i.far.fa-star
+                        i.far.fa-star
+                    .stuff
+                        ul
+                            li
+                                | Brand:    
+                                a.pr(href="#") Buxton
+                            li
+                                | Product Code:
+                                a.pr(href="#") Product 16
+                            li
+                                | Reward Points: 
+                                a.pr(href="#") 100
+                            li
+                                | Availability: 
+                                a.pr(href="#") In Stock
+                            li
+                                | Ex Tax :
+                                a.pr(href="#") $453.35
+                            li
+                                | Price in reward points: 
+                                a.pr(href="#") 400
+                    .size
+                        p Size
+                        select#size(name="size")
+                            option(value="1") S
+                            option(value="2") M
+                            option(value="3") L
+                            option(value="4") XS
+                            option(value="5") XL
+                            option(value="6") XXL
+                    .quantity
+                        label Quantity
+                        .cart-plus
+                            input(type="text " value="1")
+                            .inc
+                                i.fas.fa-angle-up
+                            .dec
+                                i.fas.fa-angle-down
+                    .btn-area
+                        ul
+                            li
+                                a.btn(href="#") ADD TO CART
+                            li
+                                a(href="#")
+                                    i.far.fa-heart
+                            li
+                                a(href="#")
+                                    i.fas.fa-random
+                    .tag
+                        h6 Tags:
+                        a(href="#") scraf,
+                        a(href="#") jacket,
+                        a(href="#") shirt
+                    .kenne-social
+                        ul
+                            li
+                                a(href="#")
+                                    i.fab.fa-facebook-square
+                            li
+                                a(href="#")
+                                    i.fab.fa-twitter-square
+                            li
+                                a(href="#")
+                                    i.fab.fa-google-plus-square
+                            li
+                                a(href="#")
+                                    i.fab.fa-instagram
+                            li
+                                a(href="#")
+                                    i.fab.fa-youtube-square
+                
+
+script.
+    $(document).ready(function(){
+        $('.single').owlCarousel({
+            nav: false,
+            loop: false,
+            responsive: {
+                1000: {
+                    items: 1
+                },
+                0: {
+                    items: 1
+                }
+            }
+        });
+    });
+    $(document).ready(function(){
+        $('.slider').owlCarousel({
+            nav: true,
+            loop: false,
+            responsive: {
+                1000: {
+                    items: 3
+                },
+                768: {
+                    items:4
+                },
+                480: {
+                    items: 2
+                },
+                320: {
+                    items:2
+                },
+                0: {
+                    items: 1
+                }
+            }
+        })
+    });

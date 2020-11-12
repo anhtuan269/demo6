@@ -1,0 +1,111 @@
+.review-area
+    .container
+        .content
+            .header#header
+                ul
+                    li
+                        a.pb.p.active#des(href="#header" target="_top" data-toggle="tab") DESCRIPTION
+                    li
+                        a.pb.p#spe(href="#header" target="_self" data-toggle="tab") SPECIFICATION
+                    li
+                        a.pl#rev(href="#header" target="_self" data-toggle="tab") REVIEWS(1)
+            .review-content
+                .descript
+                    ul
+                        li
+                            span.title Ullam aliquan
+                            span Voluptatum, minus? Optio molestias voluptates aspernatur laborum ratione minima, natus eaque nemo rem quisquam, suscipit architecto saepe. Debitis omnis labore laborum consectetur, quas, esse voluptates minus aliquam modi nesciunt earum! Vero rerum molestiae corporis libero repellat doloremque quae sapiente ratione maiores qui aliquam, sunt obcaecati! Iure nisi doloremque numquam delectus.
+                        li
+                            span.title Enim tempore
+                            span Voluptatum, minus? Optio molestias voluptates aspernatur laborum ratione minima, natus eaque nemo rem quisquam, suscipit architecto saepe. Debitis omnis labore laborum consectetur, quas, esse voluptates minus aliquam modi nesciunt earum! Vero rerum molestiae corporis libero repellat doloremque quae sapiente ratione maiores qui aliquam, sunt obcaecati! Iure nisi doloremque numquam delectus.
+                        li
+                            span.title Laudantium suscipit
+                            span Voluptatum, minus? Optio molestias voluptates aspernatur laborum ratione minima, natus eaque nemo rem quisquam, suscipit architecto saepe. Debitis omnis labore laborum consectetur, quas, esse voluptates minus aliquam modi nesciunt earum! Vero rerum molestiae corporis libero repellat doloremque quae sapiente ratione maiores qui aliquam, sunt obcaecati! Iure nisi doloremque numquam delectus.
+                        li
+                            span.title Molestiae veritatis officia
+                            span Voluptatum, minus? Optio molestias voluptates aspernatur laborum ratione minima, natus eaque nemo rem quisquam, suscipit architecto saepe. Debitis omnis labore laborum consectetur, quas, esse voluptates minus aliquam modi nesciunt earum! Vero rerum molestiae corporis libero repellat doloremque quae sapiente ratione maiores qui aliquam, sunt obcaecati! Iure nisi doloremque numquam delectus.
+                .spefi.none
+                    table
+                        tbody
+                            tr
+                                td(colspan="2")
+                                    strong Memori
+                        tbody
+                            tr  
+                                td test1
+                                td 8gb
+                        tbody
+                            tr
+                                td(colspan="2")
+                                    strong Processor
+                        tbody
+                            tr  
+                                td No. Of Codes
+                                td 1
+                .review.none
+                    #review
+                        form(action="")
+                            #reviews
+                                table 
+                                    tbody
+                                        tr.odd
+                                            td
+                                                strong Customer
+                                            td.text-right 26/10/19 
+                                            
+                                        tr
+                                            td(colspan="2")
+                                                p.pd50 Good product! Thank you very much
+                                                .rating-box
+                                                    i.fas.fa-star
+                                                    i.fas.fa-star
+                                                    i.fas.fa-star
+                                                    i.fas.fa-star
+                                                    i.fas.fa-star
+                                h2 Whrite a review
+                                .email
+                                    label(for="")
+                                        |Email
+                                        span *
+                                    input(type="text")
+                                .opinion
+                                    label(for="") Share your opinion
+                                    textarea#opinion(name="", cols="30", rows="10")
+                                    .help-box.pt
+                                        span.text Note:
+                                        span HTML is not translated!
+                                .rating
+                                    h5 Your Rating
+                                    .vote    
+                                        i.fas.fa-star
+                                        i.fas.fa-star
+                                        i.fas.fa-star
+                                        i.fas.fa-star
+                                        i.fas.fa-star
+                                    .bnt
+                                        button Continue
+script.
+    $('#des').click(function(e){
+        $('#des').addClass('active');
+        $('#spe').removeClass('active');
+        $('#rev').removeClass('active');
+        $('.descript').removeClass('none');
+        $('.spefi').addClass('none');
+        $('.review').addClass('none');
+    })
+    $('#spe').click(function(e){
+        $('#spe').addClass('active');
+        $('#des').removeClass('active');
+        $('#rev').removeClass('active');
+        $('.descript').addClass('none');
+        $('.spefi').removeClass('none');
+        $('.review').addClass('none');
+    })
+    $('#rev').click(function(e){
+        $('#rev').addClass('active');
+        $('#spe').removeClass('active');
+        $('#des').removeClass('active');
+        $('.descript').addClass('none');
+        $('.spefi').addClass('none');
+        $('.review').removeClass('none');
+    })

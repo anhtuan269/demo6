@@ -1,0 +1,243 @@
+@media screen and (min-width: 320px) {
+    .single-area .container .slide .single-product  .single .owl-dots {
+        display:none;
+    }
+    .single-area .container .slide .single-product .slider .owl-dots {
+        display:none;
+    }
+    .single-area {
+        padding:    100px 0 0 ;
+    }
+    .single-area .container .slide .single-product .single .image {
+        border: 1px solid #e5e5e5;
+    }
+    .single-area .container .slide .single-product .slider .product {
+        padding: 15px;
+        display: block;
+    }
+    .single-area .container .slide .single-product .slider a {
+        display: block;
+    }
+    .single-area .container .slide .single-product .slider .image  {
+        border: 1px solid #e5e5e5;
+        width: 100%;
+        display: block;
+    }
+    .single-area .container .slide .single-product .slider {
+        padding: 0 45px;
+        margin-top:30px;
+        position: relative;
+    }
+    .single-area .container .slide .single-product .slider .owl-nav .owl-prev {
+        top: 30%;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        line-height: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        font-size: 25px;
+        opacity: 0.5;
+    }
+    .single-area .container .slide .single-product .slider .owl-nav .owl-prev:hover {
+        opacity: 1;
+    }
+    .single-area .container .slide .single-product .slider .owl-nav .owl-next:hover {
+        opacity: 1;
+    }
+    .single-area .container .slide .single-product .slider .owl-nav .owl-next {
+        top: 30%;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        line-height: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        font-size: 25px;
+        opacity: 0.5;
+    }
+    .border {
+        border-color: #a8741a!important;
+    }
+    .single-area .container .slide .sp-content {
+        padding-top: 15px;
+    }
+    .single-area .container .slide .sp-content .title h5 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 20px;
+        font-weight:500;
+    }
+    .single-area .container .slide .sp-content .vote {
+        padding-top:5px;
+    }
+    .single-area .container .slide .sp-content .vote i {
+        font-size: 12px;
+        color:#a8741a;
+        padding-right:3px;
+        font-weight:600;
+    }
+    .pr {
+        padding-left: 5px;
+    }
+    .single-area .container .slide .sp-content .size {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-top:    25px;
+    }
+    .single-area .container .slide .sp-content .size select {
+        margin-left: 15px;
+        height: 40px;
+        padding-left: 30px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        line-height: 40px;
+        position: relative;
+    }
+    /* .single-area .container .slide .sp-content .size::after {
+        content:"^";
+        border-bottom: 2px solid #999;
+        border-right: 2px solid #999;
+        display: block;
+        height: 5px;
+        position: absolute;
+        top:50%;
+        left: 40%;
+        transform-origin: 66% 66%;
+        width: 5px;
+        transform: rotate(45deg);
+    } */
+    .single-area .container .slide .sp-content .quantity {
+        display:flex;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .single-area .container .slide .sp-content .quantity .cart-plus {
+        display: flex;
+        position: relative;
+        margin-left:15px;
+        width:76px;
+        height:46px;
+        border: 1px solid #e5e5e5;
+        text-align: center;
+    }
+    .single-area .container .slide .sp-content .quantity .cart-plus input {
+        width:48px;
+        text-align: center;
+    }
+    .single-area .container .slide .sp-content .quantity .cart-plus .inc {
+        height: 23px;
+        width:28px;
+        position: absolute;
+        top:0;
+        right:0;
+        cursor: pointer;
+        line-height:21px;
+        border-left: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        text-align: center;
+        font-weight: 600;
+    }
+    .single-area .container .slide .sp-content .quantity .cart-plus .dec {
+        height: 23px;
+        width:28px;
+        position: absolute;
+        bottom:0;
+        right:0;
+        cursor: pointer;
+        line-height:23px;
+        border-left: 1px solid #e5e5e5;
+        font-weight: 600;
+        text-align: center;
+    }
+    .single-area .container .slide .sp-content .btn-area {
+        padding-top: 30px;
+     }
+     .single-area .container .slide .sp-content .btn-area ul {
+         display: flex;
+     }
+     .single-area .container .slide .sp-content .btn-area ul li {
+        padding-left:5px;
+    }
+    .single-area .container .slide .sp-content .btn-area ul li:first-child {
+        padding-left:0;
+    }
+    .single-area .container .slide .sp-content .btn-area ul li a {
+        padding: 10px 15px;
+        display: block;
+        border: 1px solid #e5e5e5;
+    }
+    .btn {
+        background-color:#a8741a;
+        color: #fff
+    }
+    .single-area .container .slide .sp-content  .tag {
+        display: flex;
+        text-align: center;
+        padding-top: 23px;
+        align-items: center;
+    }
+    .single-area .container .slide .sp-content .tag h6 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .single-area .container .slide .sp-content .tag a {
+        padding-left: 10px;
+    }
+    .single-area .container .slide .sp-content .kenne-social ul   {
+        display: flex;
+        align-items: center;
+        padding-top:25px;
+    }
+    .single-area .container .slide .sp-content .kenne-social ul li {
+        padding-right:5px;
+    }
+    .single-area .container .slide .sp-content .kenne-social ul li a  {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        display: block;
+        font-size:16px;
+        text-align: center;
+        border: 1px solid #e5e5e5;
+        transition: all 0.5s ease-in-out;
+
+    }
+    .single-area .container .slide .sp-content .kenne-social ul li a:hover {
+        color: #fff;
+        background-color: #a8741a;
+    }
+}
+@media screen and (min-width: 768px) {
+    .single-area .container .slide .sp-content .title h5 {
+        font-size: 20px;
+    }
+    .single-area .container .slide .sp-content .kenne-social ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .single-area .container .slide {
+        display: grid;
+        grid-template-columns: 30% 67%;
+        justify-content:space-between;
+    }
+    .single-area .container .slide .sp-content {
+        padding-top: 0px;
+    }
+    .single-area .container .slide .sp-content  .content {
+        font-size: 16px;
+    }
+    .single-area .container .slide .sp-content .title h5 {
+        font-size: 28px;
+    }
+    .single-area .container .slide .sp-content .kenne-social ul li a {
+        font-size: 25px;
+    }
+}

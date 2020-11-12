@@ -167,6 +167,7 @@
         transition: all 0.5s ease-in-out ;
         display: block;
         text-align: left;
+        z-index: 1;
     }
     .header .container .bottom-header .main-menu ul .pa:hover .sub-menu {
         transform: scaleY(1);
@@ -190,6 +191,7 @@
         transition: all 0.5s ease-in 0s;
         max-width: 1200px;
         margin: auto;
+        z-index: 99;
     }
     .header .container .bottom-header .main-menu ul .pa .menu-col .col ul {
         display: block;
@@ -220,5 +222,6 @@
     .header .container .bottom-header .main-menu ul .pa a {
         padding: 20px 0;
         display: block;
+        font-size: 16px;
     }
 }

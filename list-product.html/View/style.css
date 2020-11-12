@@ -22,6 +22,7 @@
     .view-area .container .content ul {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     .view-area .container .content ul li:first-child:after {
         content:">";

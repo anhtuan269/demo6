@@ -1,0 +1,184 @@
+@media screen and (min-width: 320px) {
+    .review-area {
+        padding: 100px 0 0 ;
+    }
+    .active {
+        color: #A8741A;
+    }
+    .none {
+        display: none;
+    }
+    .review-area .container .content .header {
+        background-color: #f5f5f5;
+        padding: 25px 0;
+        display: block;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        text-align: center;
+
+    }
+    .review-area .container .content .review-content {
+        padding: 30px;
+        border: 1px solid #e5e5e5;
+    }
+    .review-area .container .content .review-content .descript ul li  .title {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    .review-area .container .content .review-content .descript ul li {
+        padding-top: 15px;
+    }
+    .review-area .container .content .review-content .descript ul li:first-child {
+        padding-top: 0px;
+    }
+    .pb {
+        padding-bottom: 10px;
+    }
+    .review-area .container .content .review-content .spefi table {
+        border: 1px solid #dee2e6;
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border-collapse: collapse;
+    }
+    .review-area .container .content .review-content .spefi table tr td{
+        border: 1px solid #dee2e6;
+        padding:0.75rem;
+        vertical-align: top;
+    }
+    .review-area .container .content .review-content .review #review form #reviews table {
+        border: 1px solid #dee2e6;
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border-collapse: collapse;
+    }
+    .review-area .container .content .review-content .review #review form #reviews table tr td {
+        border: 1px solid #dee2e6;
+        padding:20px;
+        vertical-align: top;
+    }
+    .review-area .container .content .review-content .review #review form #reviews table tr td .rating-box i {
+        color: #A8741A;
+    }
+    .odd {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    .pd50 {
+        padding-bottom: 20px;
+    }
+    .review-area .container .content .review-content .review #review form #reviews h2 {
+        font-size: 31px;
+        padding-bottom:15px;
+        font-weight:500;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .email {
+        padding-bottom:18px;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .email label {
+        display: flex;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .email label span {
+        margin-left:3px;
+        color:#A8741A;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .email input {
+        height:30px;
+        width:100%;
+        border: 1px solid #e5e5e5;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .opinion label {
+        padding-bottom: 18px;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .opinion textarea {
+        width: 100%;
+        border: 1px solid #e5e5e5;
+        height: 120px;
+    }
+    .pt {
+        padding-top: 18px;
+        padding-bottom: 10px;
+    }
+    .text {
+        color:#DC3545;
+        margin-right: 3px;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .rating h5 {
+        padding-bottom: 18px;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .rating .vote i {
+        color: #A8741A;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .rating .bnt {
+        padding-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .rating .bnt button {
+        width: 175px;
+        height:45px;
+        line-height:45px;
+        display: block;
+        text-align: center;
+        background-color: #242424;
+        color:#fff;
+        font-weight:400;
+        font-size:16px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 480px){
+    .pb {
+        padding-bottom:0;
+
+    }
+    .pl {
+        padding-left: 15px
+    }
+    .p {
+        padding: 0 15px;
+    }
+    .review-area .container .content .header ul {
+        display: flex;
+    }
+    .review-area .container .content .review-content .review #review form #reviews .rating .bnt {
+        padding-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+@media screen and (min-width: 768px){
+    .review-area .container .content .header ul li a {
+        position: relative;
+        display: block;
+    }
+    .review-area .container .content .header ul li a::after {
+        position: absolute;
+        top: 50%;
+        content: "";
+        height: 2px;
+        background-color: #bbb;
+        width: 10px;
+        right: -5px;
+
+    }
+    .review-area .container .content .header ul li:last-child a::after {
+        width:0;
+    }
+}
+@media screen and (min-width: 1200px){
+    .review-area .container .content .review-content .descript ul li  .title {
+        font-size: 25px;
+    }
+    .review-area .container .content .header ul li a {
+        font-size: 18px;
+    }
+    .review-area .container .content .review-content .descript ul li  span {
+        font-size: 16px;
+    }
+}
