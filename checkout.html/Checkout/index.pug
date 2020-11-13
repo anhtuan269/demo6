@@ -1,0 +1,128 @@
+.checkout
+    .container
+        .checkout-content
+
+            .ques
+                h3 
+                    |Returning customer?
+                    span  Click here to login
+            .ques
+                h3 
+                    |Have a coupon?
+                    span  Click here to enter your code
+            .grid-temple
+                .main
+                    .billing
+                        h3.uppercase billing details
+                        .country.mb25
+                            p 
+                                |Country
+                                span *
+                            select#country(name="country")
+                                option(value="1") Bangladesh
+                                option(value="2") Spain
+                                option(value="3") Unite King Dom
+                                option(value="4") Japan
+                                option(value="5") Chine
+                                option(value="6") Việt Nam
+                        .name
+                            .first.mb25
+                                p
+                                    |First Name 
+                                    span.ml5 *
+                                input(type="text")
+                            .last.mb25
+                                p
+                                    |Last Name 
+                                    span.ml5  *
+                                input(type="text")
+                        .company.mb25
+                            p Company Name
+                            input(type="text")
+                        .address.mb25
+                                p
+                                    |Address 
+                                    span.ml5  *
+                                input(type="text" placeholder="Street address")
+                        .apart.mb25
+                                input(type="text" placeholder="Apartment, Suite, Unit ect, (optional)")
+                        .state.mb25               
+                            p
+                                |Town / City
+                                span.ml5  *
+                            input(type="text")
+                        .template
+                            .state.mb25                
+                                p
+                                    |State / Country
+                                    span.ml5  *
+                                input(type="text")
+                            .state.mb25                
+                                p
+                                    |Postcode / Zip
+                                    span.ml5  *
+                                input(type="text")
+                            .state.mb25                
+                                p
+                                    | Email Address
+                                    span.ml5  *
+                                input(type="text")
+                            .state.mb25                
+                                p
+                                    | Phone
+                                    span.ml5  *
+                                input(type="text")
+                        .check.mb15
+                            input(type="checkbox" id="creat")
+                            label(for="creat") Create an account
+                        .check.mb15.ship-box
+                            label#ship(for="ship") Ship to different address
+                            input(type="checkbox" id="ship")
+                        .text.mb30
+                            p.mb05 Order Notes
+                            textarea#area(name="text", cols="30", rows="10"  placeholder="Notes about your order, e.g. special notes for delivery.")
+                .order
+                    .order-container
+                        h2 YOUR ORDER
+                        .total
+                            table.mb16
+                                thead
+                                    tr  
+                                        th PRODUCT
+                                        th TOTAL
+                                tbody
+                                    tr  
+                                        td 
+                                            |Vestibulum suscipit 
+                                            strong.ml5  × 1
+                                        td £165.00
+                                    tr  
+                                        td 
+                                            |Vestibulum suscipit 
+                                            strong.ml5  × 1
+                                        td £165.00
+                                    tr 
+                                        td.strong1 Cart Subtotal
+                                        td £165.00
+                                    tr 
+                                        td.strong2 Order Total
+                                        td.strong3 £215.00
+                            .bank
+                                .trans
+                                    h3.mb
+                                        a(href="#")   Direct Bank Transfer.
+                                    p.mb.mt2 Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                                .trans
+                                    h3.mb
+                                        a(href="#")   Cheque Payment
+                                    p.hidden.mb.mt2.none Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                                .trans
+                                    h3.mb
+                                        a(href="#")   Paypal.
+                                    p.hidden.mb.mt2.none Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                                a#order.mt20(href="#") Place Order 
+                                
+                            
+                                    
+
+                

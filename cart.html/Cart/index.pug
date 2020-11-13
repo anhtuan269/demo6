@@ -1,0 +1,74 @@
+.cart-area
+    .container
+        form(action="javascript:void(0)")
+            .table.table-content.table-responsive
+                table#table
+                    thead
+                        tr
+                            th.remove Remove
+                            th.image Image
+                            th.product Product
+                            th.price Unit price
+                            th.quantity Qunatity
+                            th.total Total
+                    tbody
+                        tr
+                            td.remove
+                                a(href="#")
+                                    i.fas.fa-trash
+                            td.image
+                                a(href="#")
+                                    img(src="./image/1-1.jpg", alt="")
+                            td.product
+                                a(href="#") Juma rema pola
+                            td.price $46.90
+                            td.quantity
+                                label.mg Quantity
+                                .cart-plus
+                                    input(type="text" value="3")
+                                    .dec
+                                        i.fas.fa-angle-up
+                                    .inc
+                                        i.fas.fa-angle-down
+                            td.total
+                                strong $46.90
+                        tr
+                            td.remove
+                                a(href="#")
+                                    i.fas.fa-trash
+                            td.image
+                                a(href="#")
+                                    img(src="./image/5-1.jpg", alt="")
+                            td.product
+                                a(href="#") Juma rema pola
+                            td.price $46.90
+                            td.quantity
+                                label.mg Quantity
+                                .cart-plus
+                                    input(type="text" value="3")
+                                    .dec
+                                        i.fas.fa-angle-up
+                                    .inc
+                                        i.fas.fa-angle-down
+                            td.total
+                                strong $46.90
+        .coupon.mb-30
+            .left
+                .input-group
+                    input(type="text" placeholder=" Coupon code")
+                    button.btn APPLY COUPON
+            .right.pd-30
+                button.btn UPDATE CART
+        .total-page
+            h2 Cart Total
+            ul  
+                li
+                    |Subtotal
+                    span $118.90
+                li
+                    |Total
+                    span $118.90
+            button Proceed To Checkout
+
+
+                                

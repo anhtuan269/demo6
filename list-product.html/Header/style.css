@@ -47,6 +47,9 @@
         text-align: center;
         line-height: 20px;
     }
+    .color {
+        color: #a8741a;
+    }
 }
 @media screen and (min-width: 768px){
     .header .container .mid-header .contact {
@@ -123,6 +126,55 @@
         padding: 8px 15px;
         font-size: 12px;
     }
+    .header .container .top-header ul li a:hover {
+        color:#a8741a;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .header .container .top-header ul .has-sub {
+        display: inline-block;
+        position: relative;
+    }
+    .header .container .top-header ul .has-sub .submenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        padding: 10px;
+        z-index: 99;
+        width: 150px;
+        display: block;
+        transform: scale(0);
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .header .container .top-header ul .has-sub:hover .submenu {
+        transform: scale(1);
+    }
+    .header .container .top-header ul .has-sub .submenu li {
+        padding:0!important;
+    }
+    .header .container .top-header ul .has-sub .submenu li:first-child a {
+        padding-top:0!important;
+    }
+    .header .container .top-header ul .has-sub .submenu li:last-child  a{
+        padding-bottom:0;
+        border-bottom: none;
+    }
+    .header .container .top-header ul .has-sub .submenu li a {
+        border-bottom: 1px solid #e5e5e5;
+        display: block;
+        padding: 10px 5px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .header .container .top-header ul .has-sub .submenu li .flag {
+        display: flex;
+        align-items: center;
+    }
+    .header .container .top-header ul .has-sub .submenu li .flag img {
+        margin-right: 5px;
+    }
+
     .header .container .top-header ul li a i {
         margin-left: 10px;
     }
@@ -144,7 +196,7 @@
         display:inline-block;
         margin-right: 40px;
         text-align: center;
-        font-weight: 600;
+        font-weight: 400;
     }
     .header .container .bottom-header .main-menu ul .pa:hover {
         color:#a8741a;

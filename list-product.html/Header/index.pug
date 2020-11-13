@@ -3,12 +3,28 @@
         .top-header
             .top-left
                 ul
-                    li
+                    li.has-sub
                         a(href="#")  CURRENCY
                             i.fas.fa-angle-down
-                    li
+                        ul.submenu
+                            li 
+                                a(href="#") € EUR
+                            li 
+                                a(href="#") £ Pound Sterling
+                            li 
+                                a(href="#") $ Us Dollar
+                    li.has-sub
                         a(href="#")  LANGUAGE
                             i.fas.fa-angle-down
+                        ul.submenu
+                            li
+                                a.flag(href="#")
+                                    img(src="./image/us.jpg", alt="")
+                                    | English
+                            li
+                                a.flag(href="#")
+                                    img(src="./image/fra.jpg", alt="")
+                                    | Français
             .top-right
                 ul
                     li
@@ -63,70 +79,70 @@
                         a(href="index.pug") SHOP
                             i.fas.fa-angle-down 
                         .menu-col.sub-menu
-                            .col
-                                ul
-                                    li
-                                        span Shop page Layout
-                                    li
-                                        a(href="list-product.html") Grid Full Width
-                                    li
-                                        a(href="list-product.html") Left Sidebar
-                                    li
-                                        a(href="#") Right Sidebar
-                                    li
-                                        a(href="#") List Full Width
-                                    li
-                                        a(href="#") List Left Sidebar
-                                    li
-                                        a(href="#") List Right Sidebar
-                            .col
-                                ul
-                                    li
-                                        span Single Product Type
-                                    li
-                                        a(href="single-product.html") Single Product
-                                    li
-                                        a(href="#") Left Sidebar
-                                    li
-                                        a(href="#") Right Sidebar
-                                    li
-                                        a(href="#") List Full Width
-                                    li
-                                        a(href="#") List Left Sidebar
-                                    li
-                                        a(href="#") List Right Sidebar
-                            .col
-                                ul
-                                    li
-                                        span Shop page Layout
-                                    li
-                                        a(href="#") Grid Full Width
-                                    li
-                                        a(href="#") Left Sidebar
-                                    li
-                                        a(href="#") Right Sidebar
-                                    li
-                                        a(href="#") List Full Width
-                                    li
-                                        a(href="#") List Left Sidebar
-                                    li
-                                        a(href="#") List Right Sidebar
-                            .col
-                                ul
-                                    li
-                                        span Shop page Layout
-                                    li
-                                        a(href="#") Grid Full Width
-                                    li
-                                        a(href="#") Left Sidebar
-                                    li
-                                        a(href="#") Right Sidebar
-                                    li
-                                        a(href="#") List Full Width
-                                    li
-                                        a(href="#") List Left Sidebar
-                                    li
-                                        a(href="#") List Right Sidebar
+                                    .col
+                                        ul
+                                            li
+                                                span Shop page Layout
+                                            li
+                                                a(href="list-product.html") Grid Full Width
+                                            li
+                                                a(href="list-product.html") Left Sidebar
+                                            li
+                                                a(href="#") Right Sidebar
+                                            li
+                                                a(href="#") List Full Width
+                                            li
+                                                a(href="#") List Left Sidebar
+                                            li
+                                                a(href="#") List Right Sidebar
+                                    .col
+                                        ul
+                                            li
+                                                span Single Product Style
+                                            li
+                                                a(href="#") Gallery Left
+                                            li
+                                                a(href="#") Gallery Right
+                                            li
+                                                a(href="#") Tab Style Left
+                                            li
+                                                a(href="#") Tab Style Right
+                                            li
+                                                a(href="#") Sticky Left
+                                            li
+                                                a(href="#") Sticky Right
+                                    .col
+                                        ul
+                                            li
+                                                span Single Product Type
+                                            li
+                                                a(href="single-product.html") Single Product 
+                                            li
+                                                a(href="#") Single Product Sale
+                                            li
+                                                a(href="#") Single Product Group
+                                            li
+                                                a(href="#") Single Product Variable
+                                            li
+                                                a(href="#") Single Product Affiliate
+                                            li
+                                                a(href="#") Single Product Slider
+                                    .col
+                                        ul
+                                            li
+                                                span Shop Related Pages
+                                            li
+                                                a(href="#") My Account
+                                            li
+                                                a(href="#") Login | Register
+                                            li
+                                                a(href="#") Wishlist
+                                            li
+                                                a(href="cart.html") Cart
+                                            li
+                                                a(href="checkout.html") Checkout
+                                            li
+                                                a(href="#") Compare
                         li.pa.has-sub
                             a(href="index.pug") PAGES
                                 i.fas.fa-angle-down 
