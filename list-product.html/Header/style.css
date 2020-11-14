@@ -229,7 +229,7 @@
         padding: 10px 20px;
         color: #242424;
         font-weight:400;
-
+        transition: all 0.5s ease-in-out 0s;
     }
     .header .container .bottom-header .main-menu ul .pa .menu-col {
         display: grid;
@@ -269,6 +269,8 @@
     }
     .header .container .bottom-header .main-menu ul .pa .sub-menu li a:hover {
         color:#a8741a;
+        transform: translateX(15px);
+        transition: all 0.5s ease-in-out 0s;
     }
 
     .header .container .bottom-header .main-menu ul .pa a {

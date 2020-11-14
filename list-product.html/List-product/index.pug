@@ -388,34 +388,136 @@
                     h3 Product Categories
                     .categori-menu
                         ul
-                            li.has-sub
+                            li.has-sub1.has-sub
                                 a(href="#") Apparel
-                                    span.click +
+                                span.click1 +
+                                ul 
+                                    li
+                                        a(href="#") Maxime
+                                    li
+                                        a(href="#") Praesentium
+                                    li
+                                        a(href="#") Eligendi
+                                    li
+                                        a(href="#") Maxime
+                                    li
+                                        a(href="#") Ex deserunt
+                                    li
+                                        a(href="#") Doloremque
+                                    li
+                                        a(href="#") Veniam Sed
+                                    li
+                                        a(href="#") Facilis
+                                    li
+                                        a(href="#") Cumque Magni
                             li
-                                a(href="#") anparel
-                            li.has-sub
-                                a(href="#") anparel
-                                    span.click +
+                                a(href="#") Footwear
+                            li.has-sub2.has-sub
+                                a(href="#") Sportwear
+                                span.click2 +
+                                ul 
+                                    li
+                                        a(href="#") Daylesford
+                                    li
+                                        a(href="#") Delaware
+                                    li
+                                        a(href="#") Fayence
+                                    li
+                                        a(href="#") Mable
+                                    li
+                                        a(href="#") Mobo
+                                    li
+                                        a(href="#") Pippins
                             li
-                                a(href="#") anparel
+                                a(href="#") Tranditional
                             li
-                                a(href="#") anparel
-                            li.has-sub
-                                a(href="#") anparel
-                                    span.click +
-                            li.has-sub
-                                a(href="#") anparel
-                                    span.click +
-                            li.has-sub
-                                a(href="#") anparel
-                                    span.click +
-                            li.has-sub
-                                a(href="#") anparel
-                                    span.click +
+                                a(href="#") Formal Wear
+                            li.has-sub3.has-sub
+                                a(href="#") Accessories
+                                span.click3 +
+                                ul 
+                                    li
+                                        a(href="#") Bedroom Furniture
+                                    li
+                                        a(href="#") Chairs
+                                    li
+                                        a(href="#") Coffee Tables
+                                    li
+                                        a(href="#") Console Tables
+                                    li
+                                        a(href="#") End Table
+                                    li
+                                        a(href="#") Living Room Sets
+                                    li
+                                        a(href="#") ottomans $ Storage Ottomans
+                                    li  
+                                        a(href="#")  Sofa $ Couches
+                                    li  
+                                        a(href="#")  TV Stands
+                            li.has-sub4.has-sub
+                                a(href="#") Wathches & Jewwlry
+                                span.click4 +
+                                ul 
+                                    li
+                                        a(href="#") CandleHolders
+                                    li
+                                        a(href="#") Candles
+                                    li
+                                        a(href="#") Clocks
+                                    li
+                                        a(href="#") Floor Mirrors
+                                    li
+                                        a(href="#") Lamps & Lighting
+                                    li
+                                        a(href="#") RUgs
+                                    li
+                                        a(href="#") Runners
+                                    li
+                                        a(href="#") Wall Decor
+                                    li
+                                        a(href="#") Wall Mirrors
+                            li.has-sub5.has-sub
+                                a(href="#") Luggage
+                                span.click5 +
+                                ul 
+                                    li
+                                        a(href="#") Bowls 
+                                    li
+                                        a(href="#") Cups, Mugs & Saucers
+                                    li
+                                        a(href="#") Cutting Boards
+                                    li
+                                        a(href="#") Dinnerware Sets
+                                    li
+                                        a(href="#") Flatware
+                                    li
+                                        a(href="#") Glassware & Drinkware
+                                    li
+                                        a(href="#") Knife Sets
+                                    li
+                                        a(href="#") Plates
+                                    li
+                                        a(href="#") Serveware
+                            li.has-sub6.has-sub
+                                a(href="#") Handbag
+                                span.click6 +
+                                ul 
+                                    li
+                                        a(href="#") Coffee & side table
+                                    li
+                                        a(href="#") living room storage
+                                    li
+                                        a(href="#") Living room lighting
+                                    li
+                                        a(href="#") Living room textiles & rugs
+                                    li
+                                        a(href="#") Sofas & armchairs
+                                    li
+                                        a(href="#") TV & media furniture
                             li
-                                a(href="#") anparel
+                                a(href="#") Cosmetic
                             li
-                                a(href="#") anparel
+                                a(href="#") Uncategorized
                 .color.pdt.pd15
                     h3 Color
                     .color-menu
@@ -571,9 +673,56 @@ script.
             }
         })
     });
-    $('.click').click(function(e){
-        $('.has-sub').toggleClass('open')
-    })
+    $('.click1').click(function(e){
+        $('.has-sub1').toggleClass('open');
+        $('.has-sub6').removeClass('open');
+        $('.has-sub2').removeClass('open');
+        $('.has-sub3').removeClass('open');
+        $('.has-sub4').removeClass('open');
+        $('.has-sub5').removeClass('open');
+    });
+    $('.click2').click(function(e){
+        $('.has-sub2').toggleClass('open')
+         $('.has-sub6').removeClass('open');
+        $('.has-sub1').removeClass('open');
+        $('.has-sub3').removeClass('open');
+        $('.has-sub4').removeClass('open');
+        $('.has-sub5').removeClass('open');
+    });
+    $('.click3').click(function(e){
+        $('.has-sub3').toggleClass('open')
+         $('.has-sub6').removeClass('open');
+        $('.has-sub2').removeClass('open');
+        $('.has-sub1').removeClass('open');
+        $('.has-sub4').removeClass('open');
+        $('.has-sub5').removeClass('open');
+    });
+    $('.click4').click(function(e){
+        $('.has-sub4').toggleClass('open')
+        $('.has-sub6').removeClass('open');
+        $('.has-sub2').removeClass('open');
+        $('.has-sub3').removeClass('open');
+        $('.has-sub1').removeClass('open');
+        $('.has-sub5').removeClass('open');
+    });
+    $('.click5').click(function(e){
+        $('.has-sub5').toggleClass('open')
+         $('.has-sub6').removeClass('open');
+        $('.has-sub2').removeClass('open');
+        $('.has-sub3').removeClass('open');
+        $('.has-sub4').removeClass('open');
+        $('.has-sub1').removeClass('open');
+    });
+    $('.click6').click(function(e){
+        $('.has-sub6').toggleClass('open');
+         $('.has-sub1').removeClass('open');
+        $('.has-sub2').removeClass('open');
+        $('.has-sub3').removeClass('open');
+        $('.has-sub4').removeClass('open');
+        $('.has-sub5').removeClass('open');
+
+    });
+
 
 
                             
